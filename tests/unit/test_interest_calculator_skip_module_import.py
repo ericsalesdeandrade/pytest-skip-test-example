@@ -1,8 +1,5 @@
 import pytest
-from interest_calculator.core import (
-    simple_interest,
-    compound_interest
-)
+from interest_calculator.core import simple_interest, compound_interest
 
 fake_library = pytest.importorskip("fake_library")
 

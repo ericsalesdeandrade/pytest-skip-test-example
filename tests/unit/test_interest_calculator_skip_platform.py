@@ -1,11 +1,10 @@
 import sys
 import pytest
-from interest_calculator.core import (
-    simple_interest,
-    compound_interest
-)
+from interest_calculator.core import simple_interest, compound_interest
 
-pytestmark = pytest.mark.skipif(sys.platform == "darwin", reason="tests for Windows only")
+pytestmark = pytest.mark.skipif(
+    sys.platform == "darwin", reason="tests for Windows only"
+)
 
 
 def test_simple_interest_calculator_platform() -> None:

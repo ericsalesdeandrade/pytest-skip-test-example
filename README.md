@@ -1,6 +1,6 @@
-# Pytest Skip Test Example
+# Pytest Skip Test & XFail Example
 
-[//]: # (This repo contains the sample code for the article - [How To Generate Beautiful & Comprehensive Pytest Code Coverage Reports &#40;With Example&#41;]&#40;https://pytest-with-eric.com/pytest-best-practices/pytest-code-coverage-reports//&#41;)
+This repo contains the sample code for the article - [An Ultimate Guide To Using Pytest Skip Test And XFail - With Examples](https://pytest-with-eric.com/pytest-best-practices/pytest-skip-test//)
 
 
 # Requirements

@@ -1,9 +1,6 @@
 import sys
 import pytest
-from interest_calculator.core import (
-    simple_interest,
-    compound_interest
-)
+from interest_calculator.core import simple_interest, compound_interest
 
 
 @pytest.mark.xfail(reason="Missing Arguments")
